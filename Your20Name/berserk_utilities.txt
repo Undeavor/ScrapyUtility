@@ -1,0 +1,22 @@
+  A  # -	name of the main folder 
+A	# -	name of the first sub folder
+	# -	name of spider.py
+	# -	class Berserk2spiderSpider(scrapy.Spider):
+    # name = 'berserk2spider'
+    # allowed_domains = ['s22.anime-sama.fr']
+    # start_urls = ['https://s22.anime-sama.fr/s1/scans/Berserk/1/']
+
+    # def parse(self, response):
+    #     for i in range($$$$$$$$$$$$$):
+    #         if i!=0:
+    #             tome_url = "https://s22.anime-sama.fr/s1/scans/Berserk/" + str(i) + "/"
+    #             yield response.follow(tome_url) 
+    #             for image_url in response.css('a::attr(href)').getall(): #magnifique code
+    #                 yield {'image_urls': [response.urljoin(image_url)]}  #magnifique code
+    #         else:
+    #             pass
+	# -	inside items.py : name of the Class
+	# -	inside Middleware’s.py : name of the 2 classes
+	# -	Inside Pipelines.py : name of the Class
+	# -	Inside settings.py : Bot_name; spider module; newspider_module; 
+  # - Inside scrapy.cfg
